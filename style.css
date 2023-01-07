@@ -16,8 +16,10 @@ body{
 
 .navbar{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 20px;
+    margin: 0px 170px;
+
     
 }
 
@@ -26,7 +28,6 @@ p{
     font-size: 24px;
     font-weight: bolder;
     color:#f9faf8;
-    width: 50%;
     justify-content:center;
 }
 
@@ -34,7 +35,6 @@ ul{
     display: flex;
     gap: 20px;
     text-align: center;
-    width: 50%;
     justify-content: center;
 }
 
@@ -54,7 +54,7 @@ a{
     display: flex;
     background-color: #1f2937;
     justify-content: space-around;
-    padding: 100px;
+    padding: 75px 100px 100px;
 }
 
 .section-two .content{
